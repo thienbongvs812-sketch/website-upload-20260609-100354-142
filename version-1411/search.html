@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>影片搜索-国产片库</title>
+<meta name="description" content="国产片库影片搜索页面，支持按片名、地区、类型、年份和标签查找高清电影电视剧。">
+<meta name="keywords" content="国产片库_高清国产电影电视剧免费在线观看大全-综艺节目大全,国产,视频,免费,在线观看,高清,影视大全,搜索,找片,影片查询">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="国产片库">
+            <span class="brand-mark">影</span>
+            <span class="brand-copy">
+                <strong>国产片库</strong>
+                <em>高清影视免费看</em>
+            </span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="index.html">首页</a>
+<a class="nav-link" href="categories.html">分类</a>
+<a class="nav-link" href="rankings.html">热播榜</a>
+<a class="nav-link is-active" href="search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-button" type="button" aria-label="打开导航" data-menu-button>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <nav class="mobile-nav" aria-label="移动导航">
+            <a class="nav-link" href="index.html">首页</a>
+<a class="nav-link" href="categories.html">分类</a>
+<a class="nav-link" href="rankings.html">热播榜</a>
+<a class="nav-link is-active" href="search.html">搜索</a>
+        </nav>
+        <form class="mobile-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</header>
+<main>
+<section class="page-hero search-hero">
+    <div>
+        <p class="eyebrow">国产片库 · 搜索</p>
+        <h1>影片搜索</h1>
+        <p>可按片名、地区、类型、年份、题材标签搜索影片，并进入对应详情页观看。</p>
+        <form class="large-search" action="search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="输入关键词搜索影片" data-search-input>
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</section>
+<section class="content-section">
+    <div class="section-heading">
+        <div>
+            <h2>搜索结果</h2>
+            <p data-search-count>输入关键词后显示匹配影片。</p>
+        </div>
+    </div>
+    <div class="filter-panel search-filter-panel">
+        <div class="filter-groups">
+            <select data-search-year aria-label="按年份筛选">
+                <option value="">全部年份</option>
+            </select>
+            <select data-search-type aria-label="按类型筛选">
+                <option value="">全部类型</option>
+            </select>
+            <select data-search-region aria-label="按地区筛选">
+                <option value="">全部地区</option>
+            </select>
+        </div>
+    </div>
+    <div class="movie-grid" data-search-results></div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <a class="brand brand-footer" href="index.html">
+                <span class="brand-mark">影</span>
+                <span class="brand-copy">
+                    <strong>国产片库</strong>
+                    <em>高清影视免费看</em>
+                </span>
+            </a>
+            <p>海量国产片库，提供高清国产电影、电视剧免费在线观看服务。整合最新院线电影与热播剧集，资源丰富，更新速度快，满足您的日常观影需求。</p>
+        </div>
+        <div class="footer-column">
+            <h2>热门分类</h2>
+            <ul>
+                <li><a href="category-hot-picks.html">热播精选</a></li>
+<li><a href="category-domestic-library.html">国产片库</a></li>
+<li><a href="category-movie-channel.html">高清电影</a></li>
+<li><a href="category-series-theater.html">电视剧场</a></li>
+<li><a href="category-variety-animation.html">综艺动画</a></li>
+<li><a href="category-mystery-crime.html">悬疑犯罪</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h2>快捷入口</h2>
+            <ul>
+                <li><a href="categories.html">分类总览</a></li>
+                <li><a href="rankings.html">热播榜</a></li>
+                <li><a href="search.html">影片搜索</a></li>
+                <li><a href="index.html#latest">最新更新</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="assets/site.js"></script>
+<script src="assets/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
